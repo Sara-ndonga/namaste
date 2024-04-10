@@ -31,9 +31,9 @@ export default function ContactPage() {
             <p className="text-lg md:text-2xl text-center">de 17:00 a 20:00</p>
           </div>
           <div className="flex flex-col justify-center align-middle w-full sm:w-fit sm:ml-12">
-            <p className="text-lg md:text-2xl text-gray-500 text-center p-2">
+            <h1 className="text-lg md:text-2xl text-gray-500 text-center p-2">
               CONTACTOS
-            </p>
+            </h1>
             <ContactComponent type="Whatsapp" />
             <ContactComponent type={"Instagram"} />
             <ContactComponent type={"Facebook"} />

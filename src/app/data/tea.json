@@ -1,0 +1,52 @@
+{
+  "red": {
+    "description": "El té rojo es un té fermentado originario de la región de Yunnan en China",
+    "benefits": [
+      "Digestión y metabolismo",
+      "Reducción del colesterol",
+      "Efectos antioxidantes",
+      "Ayuda en la pérdida de peso"
+    ]
+  },
+  "green": {
+    "description": "El té verde se ha asociado con una variedad de beneficios para la salud",
+    "benefits": [
+      "Rico en antioxidantes",
+      "Promueve la salud del corazón",
+      "Mejora la función cerebral",
+      "Ayuda en la pérdida de peso"
+    ]
+  },
+  "black": {
+    "description": "El té negro es una bebida rica en antioxidantes",
+    "benefits": [
+      "Ayuda a mejorar la salud cardiovascular",
+      "Reduce el estrés",
+      "Promueve la pérdida de peso"
+    ]
+  },
+  "blue": {
+    "description": "El té azul, también conocido como oolong, es una variedad de té parcialmente oxidado",
+    "benefits": [
+      "Mejora el metabolismo y la quema de grasas",
+      "Regulación de los niveles de azúcar",
+      "Puede ayudar a combatir el estrés"
+    ]
+  },
+  "rooibos": {
+    "description": "El rooibos es una infusión herbal sin cafeína originaria de Sudáfrica",
+    "benefits": [
+      "Rico en antioxidantes",
+      "Promueve la salud cardiovascular",
+      "Alivia el malestar digestivo y tener propiedades antiinflamatorias"
+    ]
+  },
+  "white": {
+    "description": "El té blanco es una variedad delicada y suave, elaborada con brotes jóvenes de la planta Camellia sinensis",
+    "benefits": [
+      "Incluyen altos niveles de antioxidantes",
+      "Mejora la salud de la piel",
+      "Elimina líquidos y grasa"
+    ]
+  }
+}

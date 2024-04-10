@@ -12,9 +12,9 @@ export default function LocationPage() {
         <Header />
         <div className="flex flex-col md:flex-row justify-center items-center w-full mt-4 md:mt-0">
           <div className="flex flex-col md:mr-12 max-w-72">
-            <p className="text-lg md:text-2xl text-gray-500 text-center mb-4">
+            <h1 className="text-lg md:text-2xl text-gray-500 text-center mb-4">
               UBICACIÓN
-            </p>
+            </h1>
             <p className="text-lg text-center">
               Nos encontramos en Alcorcón, a 14km de Madrid capital, en la Calle
               Luna número 3
