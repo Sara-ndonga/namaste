@@ -1,5 +1,8 @@
+import { TeaVariety } from "./TeaVariety";
+
 export type TeaType = {
-  name: string
+  name: string;
   description: string;
   benefits: string[];
+  varieties: TeaVariety[];
 };

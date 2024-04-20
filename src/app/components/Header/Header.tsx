@@ -4,7 +4,7 @@ import Link from "next/link";
 import React, { useState } from "react";
 
 export default function Header() {
-  const [menuOpen, setMenuOpen] = useState(false);
+  const [menuOpen, setMenuOpen] = useState<boolean>(false);
 
   return (
     <div className="flex items-center justify-center w-screen h-20 px-6 md:px-24 absolute top-0 bg-green-100 z-20">

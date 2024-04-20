@@ -1,0 +1,57 @@
+"use client";
+
+import React, { useState } from "react";
+import AuthContext from "@/app/components/AuthContext/AuthContext";
+import Header from "@/app/components/Header/Header";
+import Popup from "@/app/components/Popup/Popup";
+import { TeaVariety } from "../models/TeaVariety";
+import { TeaType } from "../models/TeaType";
+import teaData from "../../data/tea.json";
+import { toTeaType } from "@/app/utils/toTeaType";
+import TeaVarietyCard from "../components/TeaVarietyCard/TeaVarietyCard";
+
+export default function TeaPage({ params }: { params: { tea: string } }) {
+  const [showPopup, setShowPopup] = useState<boolean>(false);
+  const [titlePopup, setTitlePopup] = useState<string>("");
+  const [messagePopup, setMessagePopup] = useState<string>("");
+  const selectedTea: TeaType | undefined = toTeaType(
+    params.tea.split("-")[1],
+    teaData[params.tea.split("-")[1] as keyof typeof teaData]
+  );
+  const varieties: TeaVariety[] = selectedTea?.varieties || [];
+
+  return (
+    <AuthContext>
+      <main className="flex flex-col items-center min-h-screen bg-green-50">
+        <Header />
+        <div className="flex flex-wrap justify-center mt-20">
+          <div className="flex flex-col items-center justify-center w-full my-6">
+            <h1 className="text-lg md:text-2xl text-gray-500">
+              TÉ {params.tea.split("-")[1].toUpperCase()}
+            </h1>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-6 justify-center">
+            {varieties.map((variety: TeaVariety) => (
+              <TeaVarietyCard
+                key={Object.keys(variety)[0]}
+                teaName={params.tea}
+                varietyName={Object.keys(variety)[0]}
+                onClick={() => {
+                  setTitlePopup(Object.keys(variety)[0]);
+                  setMessagePopup(Object.values(variety)[0]);
+                  setShowPopup(true);
+                }}
+              />
+            ))}
+          </div>
+        </div>
+      </main>
+      <Popup
+        title={titlePopup}
+        message={messagePopup}
+        showPopup={showPopup}
+        closePopup={() => setShowPopup(false)}
+      />
+    </AuthContext>
+  );
+}

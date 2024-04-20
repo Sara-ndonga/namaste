@@ -3,19 +3,11 @@
 import React from "react";
 import Header from "../components/Header/Header";
 import AuthContext from "../components/AuthContext/AuthContext";
-import { TeaType } from "./models/TeaType";
-import teaData from "../data/tea.json";
 import TeaCard from "./components/TeaCard/TeaCard";
+import teaData from "../data/tea.json";
+import { toTeaType } from "../utils/toTeaType";
 
 export default function CatalogPage() {
-  const toTeaType = (type: string, data: any): TeaType => {
-    return {
-      name: type,
-      description: data.description,
-      benefits: data.benefits,
-    };
-  };
-
   return (
     <AuthContext>
       <main className="flex flex-col items-center justify-center min-h-screen bg-green-50">
