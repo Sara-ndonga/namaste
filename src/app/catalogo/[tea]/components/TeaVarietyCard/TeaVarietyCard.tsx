@@ -18,7 +18,7 @@ export default function TeaVarietyCard({
     >
       <picture>
         <img
-          src={`/img/teas/${teaName}/${varietyName
+          src={`img/teas/${teaName}/${varietyName
             .split(" ")[0]
             .toLowerCase()}.jpeg`}
           alt={varietyName}
