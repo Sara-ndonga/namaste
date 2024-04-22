@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import { TeaVarietyCardProps } from "./TeaVarietyCard.props";
 
@@ -21,6 +22,14 @@ export default function TeaVarietyCard({
           height={128}
         />
       </picture>
+      <Image
+          src={`/img/teas/${teaName}/${varietyName
+            .split(" ")[0]
+            .toLowerCase()}.jpeg`}
+          alt={varietyName}
+          width={128}
+          height={128}
+        />
       <p className="font-bold text-lg">{varietyName}</p>
     </button>
   );
