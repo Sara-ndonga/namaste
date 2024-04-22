@@ -23,9 +23,7 @@ export default function TeaVarietyCard({
         />
       </picture>
       <Image
-          src={`/img/teas/${teaName}/${varietyName
-            .split(" ")[0]
-            .toLowerCase()}.jpeg`}
+          src={`/img/logo.png`}
           alt={varietyName}
           width={128}
           height={128}
