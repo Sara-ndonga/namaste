@@ -7,7 +7,14 @@ import { toTeaType } from "@/app/utils/toTeaType";
 import teaData from "../../data/tea.json";
 
 export function generateStaticParams() {
-  return [{ params: { tea: "te-azul" } }];
+  return [
+    { tea: "te-azul" },
+    { tea: "te-blanco" },
+    { tea: "te-negro" },
+    { tea: "te-rojo" },
+    { tea: "te-rooibos" },
+    { tea: "te-verde" },
+  ];
 }
 
 export default function TeaPage({ params }: { params: { tea: string } }) {
