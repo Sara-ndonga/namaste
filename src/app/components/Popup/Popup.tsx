@@ -16,8 +16,8 @@ export default function Popup({
         >
           <p className="font-bold text-red-500 text-2xl">x</p>
         </button>
-        <h1 className="text-2xl font-bold text-center mb-2">{title}</h1>
-        <p className="text-lg">{message}</p>
+        <h1 className="text-lg sm:text-2xl font-bold text-center mb-2">{title}</h1>
+        <p className="text-sm sm:text-lg">{message}</p>
       </div>
     </div>
   ) : (
