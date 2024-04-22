@@ -6,6 +6,10 @@ import { TeaVariety } from "../models/TeaVariety";
 import { toTeaType } from "@/app/utils/toTeaType";
 import teaData from "../../data/tea.json";
 
+export function generateStaticParams() {
+  return [{ params: { tea: "te-azul" } }];
+}
+
 export default function TeaPage({ params }: { params: { tea: string } }) {
   const selectedTea: TeaType | undefined = toTeaType(
     params.tea.split("-")[1],
