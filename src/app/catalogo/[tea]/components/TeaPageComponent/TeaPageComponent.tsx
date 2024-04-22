@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import AuthContext from "@/app/components/AuthContext/AuthContext";
 import Popup from "@/app/components/Popup/Popup";
 import { TeaVariety } from "@/app/catalogo/models/TeaVariety";
-import TeaVarietyCard from "../../../components/TeaVarietyCard/TeaVarietyCard";
+import TeaVarietyCard from "../TeaVarietyCard/TeaVarietyCard";
 import { TeaPageComponentProps } from "./TeaPageComponent.props";
 
 export default function TeaPageComponent({
