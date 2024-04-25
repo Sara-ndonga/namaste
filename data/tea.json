@@ -1,0 +1,157 @@
+{
+  "rojo": {
+    "description": "El té rojo es un té fermentado originario de la región de Yunnan en China",
+    "benefits": [
+      "Digestión y metabolismo",
+      "Reducción del colesterol",
+      "Efectos antioxidantes",
+      "Ayuda en la pérdida de peso"
+    ],
+    "varieties": [
+      {
+        "Canela y limon": "Té rojo Pu Erh, trozos de canela, tronquitos de canela, cáscara de limón y aroma natural de limón."
+      },
+      {
+        "Pu erh": "Té rojo con un muy marcado sabor terroso, post-fermentado."
+      },
+      {
+        "Pu erh silueta de verano": "Té rojo Pu Erh, té verde, fresa, manzana, kiwi, hibiscos, escaramujo, manzanilla romana y aromas de fresa y kiwi."
+      },
+      {
+        "Especias imperiales": "Pu erh, limón, clavo, aroma de Naranja y vainilla"
+      },
+      {
+        "Pasión turka": "Té rojo Pu Erh, manzana, trozos de canela, piel de naranja, aroma y trozos de naranja."
+      }
+    ]
+  },
+  "verde": {
+    "description": "El té verde se ha asociado con una variedad de beneficios para la salud",
+    "benefits": [
+      "Rico en antioxidantes",
+      "Promueve la salud del corazón",
+      "Mejora la función cerebral",
+      "Ayuda en la pérdida de peso"
+    ],
+    "varieties": []
+  },
+  "negro": {
+    "description": "El té negro es una bebida rica en antioxidantes",
+    "benefits": [
+      "Ayuda a mejorar la salud cardiovascular",
+      "Reduce el estrés",
+      "Promueve la pérdida de peso"
+    ],
+    "varieties": [
+      {
+        "Darjeeling": "Té de segunda cosecha y excelente calidad. Muy aromático de sabor especiado y color bronce en taza."
+      },
+      {
+        "Assam": "Té negro que por el método de producción de CTC le da a este té broken, un sabor muy fuerte en taza y de color oscuro."
+      },
+      {
+        "Lapsang souchom": "Té negro que se tuesta sobre brasas de madera fresca de pino y le da ese característico sabor ahumado."
+      },
+      {
+        "English breakfast": "Mezcla de tés negros, basadas en las directrices de las recetas inglesas, sabroso e intenso."
+      },
+      {
+        "Chocolate naranja": "Té negro, trozos de chocolate, trozos de cacao, piel de naranja y aroma de chocolate y de naranja."
+      },
+      {
+        "Chocolate irlandés": "Té negro ceylon, trozos de cacao, chocolate, pasta de cacao, manteca de cacao, emulgente, aroma, aroma natural de ron."
+      },
+      {
+        "Chai masala": "Té negro ceylon, sudíndico, trozos de canela, anís, jengibre, hinojo, clavo y cardamoma."
+      },
+      {
+        "Pakistani": "Té negro ceylon, sudíndico, trozos de canela, aroma natural, jengibre, astillas de canela, clavo y cardamomo."
+      },
+      {
+        "Canela": "Té negro, trozos de canela y aroma de canela."
+      },
+      {
+        "Vainilla": "Té negro, trozos de vainilla Bourbon y sus aromas."
+      },
+      {
+        "Buenos días Estambul": "Té negro, trozos de cacao, crocanti, chocolate, granos de café, granulos de yogur y aromas."
+      },
+      {
+        "Paraíso de rosas": "Té negro ceylon, sudíndico, piña, papaya, uva pasa, pétalos de rosa, aroma natural y aciano."
+      },
+      {
+        "Galleta naranja": "Té negro, trozos de manzana, trozos de naranja, trozos de canela, cilantro, cardamomo, pimienta rosa, clavo y aromas."
+      },
+      {
+        "Earl grey": "Té negro con el aroma natural del fruto cítrico de la bergamota. Este té encarna una de las mejores y más típicas mezclas inglesas."
+      },
+      {
+        "Earl grey blue": "Té negro con el aroma natural del fruto cítrico de la bergamota y flores de malva. Receta clásica inglesa."
+      },
+      {
+        "Lady grey": "Té negro, rodajas de limón, trozos de naranja, flores aciano y aroma de naranja, limón y bergamota."
+      },
+      {
+        "Frutos silvestres (del bosque)": "Té negro, frambuesa, moras enteras, bayas de saúco, hojas de frambuesa y aromas de la frutas del bosque."
+      },
+      {
+        "Estrellas de Bali": "Té negro, moras enteras, trozos de melón, flores de azahar, flores de caléndula y aromas."
+      },
+      {
+        "Earl grey desteinado": "Té negro Ceilán destinado con el aroma natural de la bergamota. Para los amantes del Earl Grey que no quieran teína."
+      }
+    ]
+  },
+  "azul": {
+    "description": "El té azul, también conocido como oolong, es una variedad de té parcialmente oxidado",
+    "benefits": [
+      "Mejora el metabolismo y la quema de grasas",
+      "Regulación de los niveles de azúcar",
+      "Puede ayudar a combatir el estrés"
+    ],
+    "varieties": [
+      {
+        "Naranja": "Té Oolong, flores de azahar y aroma natural de naranja."
+      },
+      {
+        "Paz tibetana": "Té Oolong, papaya, baya de goji, aroma natural, melocotón, higo, aciano, caléndula, aciano."
+      },
+      { "Azahar": "Té Oolong, azahar y aroma natural." },
+      {
+        "Milk Oolong": "Hay muchos mitos y leyendas sobre este tesoro. Ya sea aromatizado o el vapor con el agua de leche. Quien quiera que haya probado éste delicado dulce Oolong con sus notas de aroma leche, no querrá nunca renunciar a él de nuevo."
+      },
+      { "Higo": "Té Oolong, dátil, aroma, caléndula, higo y uchuva." },
+      {
+        "Flor de Asia": "Té Oolong, rosa entera, manzanilla romana y aromas de manzana y fruta de la pasión."
+      },
+      {
+        "Oolong puro": "Oolong medianamente fermentado con hoja regular. De suave sabor a nuez. de infusión anaranjada clara."
+      }
+    ]
+  },
+  "rooibos": {
+    "description": "El rooibos es una infusión herbal sin cafeína originaria de Sudáfrica",
+    "benefits": [
+      "Rico en antioxidantes",
+      "Promueve la salud cardiovascular",
+      "Alivia el malestar digestivo y tener propiedades antiinflamatorias"
+    ],
+    "varieties": []
+  },
+  "blanco": {
+    "description": "El té blanco es una variedad delicada y suave, elaborada con brotes jóvenes de la planta Camellia sinensis",
+    "benefits": [
+      "Incluyen altos niveles de antioxidantes",
+      "Mejora la salud de la piel",
+      "Elimina líquidos y grasa"
+    ],
+    "varieties": [
+      {
+        "Fresas y cava": "Té verde china chun mee, té blanco pai mu tan, china Oolong, aroma, fresa, malva e higo."
+      },
+      {
+        "Pai mu tan": "Té blanco de hoja grande de gran cantidad de brotes blancos."
+      }
+    ]
+  }
+}
