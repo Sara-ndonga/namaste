@@ -235,13 +235,11 @@
     ]
   },
   "infusiones": {
-    "description": "Las infusiones son bebidas preparadas mediante la inmersión de hierbas, frutas, especias o flores en agua caliente. Ofrecen una amplia gama de sabores y beneficios para la salud y una alternativa sin cafeína.",
+    "description": "Las infusiones son bebidas preparadas mediante la inmersión de hierbas, frutas, especias o flores en agua caliente",
     "benefits": [
       "Mejoran la relajación y la hidratación",
       "Favorece la digestión",
-      "Apoyo al sistema inmunológico",
-      "Alivia el estrés y ayuda a dormir mejor",
-      "Algunos incluyen antioxidantes"
+      "Alivia el estrés y ayuda a dormir mejor"
     ],
     "varieties": [
       {
