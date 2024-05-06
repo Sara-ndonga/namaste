@@ -8,7 +8,7 @@ export default function PropertiesPage() {
   return (
     <AuthContext>
       <main className="flex flex-col items-center justify-center min-h-screen bg-green-50">
-        <Header />
+        <Header currentPage="PropertiesPage" />
       </main>
     </AuthContext>
   );

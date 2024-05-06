@@ -9,7 +9,7 @@ export default function ContactPage() {
   return (
     <AuthContext>
       <main className="flex flex-col items-center justify-center min-h-screen bg-green-50">
-        <Header />
+        <Header currentPage="ContactPage" />
         <div className="flex flex-wrap justify-between">
           <div className="flex flex-col w-full sm:w-fit mt-20 mb-12 sm:mb-0 sm:mr-12">
             <p className="font-bold text-center underline text-lg md:text-2xl p-2">

@@ -3,8 +3,9 @@
 import Link from "next/link";
 import React, { useState } from "react";
 
-export default function Header() {
+export default function Header({ currentPage }: { currentPage: string }) {
   const [menuOpen, setMenuOpen] = useState<boolean>(false);
+  const currentPath = currentPage.toLowerCase();
 
   return (
     <div className="flex items-center justify-center w-screen h-20 px-6 md:px-24 absolute top-0 bg-green-100 z-20">
@@ -29,26 +30,42 @@ export default function Header() {
       >
         <Link
           href="/catalogo"
-          className="flex-grow xl:block ml-4 xl:ml-0 py-2 xl:py-0 hover:underline"
+          className={`flex-grow xl:block ml-4 xl:ml-0 py-2 xl:py-0 transition-transform transform-gpu ${
+            currentPage === "CatalogPage"
+              ? "scale-105 underline"
+              : "hover:scale-105 hover:underline"
+          }`}
         >
           <p className="text-center font-bold">CATÁLOGO</p>
         </Link>
         <Link
           href="/propiedades"
-          className="flex-grow xl:block ml-4 xl:ml-0 py-2 xl:py-0 hover:underline"
+          className={`flex-grow xl:block ml-4 xl:ml-0 py-2 xl:py-0 transition-transform transform-gpu ${
+            currentPage === "PropertiesPage"
+              ? "scale-105 underline"
+              : "hover:scale-105 hover:underline"
+          }`}
         >
           <p className="text-center font-bold">PROPIEDADES</p>
         </Link>
         <p className="flex-grow text-center" />
         <Link
           href="/ubicacion"
-          className="flex-grow xl:block ml-4 xl:ml-0 py-2 xl:py-0 hover:underline"
+          className={`flex-grow xl:block ml-4 xl:ml-0 py-2 xl:py-0 transition-transform transform-gpu ${
+            currentPage === "LocationPage"
+              ? "scale-105 underline"
+              : "hover:scale-105 hover:underline"
+          }`}
         >
           <p className="text-center font-bold">UBICACIÓN</p>
         </Link>
         <Link
           href="/contacto"
-          className="flex-grow xl:block ml-4 xl:ml-0 py-2 xl:py-0 hover:underline"
+          className={`flex-grow xl:block ml-4 xl:ml-0 py-2 xl:py-0 transition-transform transform-gpu ${
+            currentPage === "ContactPage"
+              ? "scale-105 underline"
+              : "hover:scale-105 hover:underline"
+          }`}
         >
           <p className="text-center font-bold">CONTACTOS</p>
         </Link>

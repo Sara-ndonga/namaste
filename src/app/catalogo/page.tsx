@@ -11,7 +11,7 @@ export default function CatalogPage() {
   return (
     <AuthContext>
       <main className="flex flex-col items-center justify-center min-h-screen bg-green-50">
-        <Header />
+        <Header currentPage="CatalogPage" />
         <div className="flex flex-wrap justify-center mt-20">
           <div className="flex w-full items-center justify-center my-6">
             <h1 className="text-lg md:text-2xl text-gray-500">CATÁLOGO</h1>

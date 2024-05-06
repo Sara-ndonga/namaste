@@ -20,10 +20,13 @@ export default function TeaPageComponent({
       <div className="flex flex-wrap justify-center mt-20">
         <div className="flex flex-col items-center justify-center w-full my-6">
           <h1 className="text-lg md:text-2xl text-gray-500">
-            TÉ {teaName.split("-")[1].toUpperCase()}
+            {!teaName.includes("infusiones") &&
+              !teaName.includes("rooibos") &&
+              "TÉ "}
+            {teaName.split("-")[1].toUpperCase()}
           </h1>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-6 justify-center">
+        <div className="flex flex-wrap justify-center">
           {varieties.map((variety: TeaVariety) => (
             <TeaVarietyCard
               key={Object.keys(variety)[0]}

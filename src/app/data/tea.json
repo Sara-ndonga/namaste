@@ -7,7 +7,23 @@
       "Efectos antioxidantes",
       "Ayuda en la pérdida de peso"
     ],
-    "varieties": []
+    "varieties": [
+      {
+        "Canela y limón": "Té rojo Pu Erh, trozos de canela, tronquitos de canela, cáscara de limón y aroma natural de limón."
+      },
+      {
+        "Pu erh": "Té rojo con un muy marcado sabor terroso, post-fermentado."
+      },
+      {
+        "Pu erh silueta de verano": "Té rojo Pu Erh, té verde, fresa, manzana, kiwi, hibiscos, escaramujo, manzanilla romana y aromas de fresa y kiwi."
+      },
+      {
+        "Especias imperiales": "Pu erh, limón, clavo, aroma de Naranja y vainilla"
+      },
+      {
+        "Pasión turka": "Té rojo Pu Erh, manzana, trozos de canela, piel de naranja, aroma y trozos de naranja."
+      }
+    ]
   },
   "verde": {
     "description": "El té verde se ha asociado con una variedad de beneficios para la salud",
@@ -17,7 +33,53 @@
       "Mejora la función cerebral",
       "Ayuda en la pérdida de peso"
     ],
-    "varieties": []
+    "varieties": [
+      {
+        "Bancha": "Té verde puro originario de China. Sus hojas son largas y presadas con un carácter suave y aromático. Procedente de agricultura ecológica."
+      },
+      {
+        "Sencha": "Té verde de hoja alargada y de gran calidad. De infusión color y de gusto fino y aromático."
+      },
+      {
+        "China jazmín": "Té verde semifermentado, flores de jazmín y sus aromas. De aroma intenso y floral, con un sabor dulzón."
+      },
+      {
+        "Genmaicha": "Té verde Bancha cultivado en China y arroz tostado. Bajo en cafeína, ideal para tomar por las tardes."
+      },
+      {
+        "Japan kukicha": "Té hecho con las ramitas de la planta del té. Al no tener hojas, esta variedad es muy baja en teína."
+      },
+      {
+        "Matcha": "Té verde matcha ideal para cocinar por su carácter intenso. También puede utilizarse para hacerse un té con matcha. No contiene azucar."
+      },
+      {
+        "Gunpowder": "Té verde de hoja enrollada, también llamado Perla Verde. De sabor suave y ligeramente amargo."
+      },
+      {
+        "Mango con ciruela": "Té verde, trozos de mango, flores de aciano, flores de caléndula y aroma de mango y de mirabel."
+      },
+      {
+        "Moruno": "Té verde gunpowder con hojas de hierbabuena. Muy popular en países del norte de África."
+      },
+      {
+        "Manzana horneada": "Té verde china sencha, manzana, uva pasa, aroma, pétalos de rosa y almendra."
+      },
+      {
+        "Fruta hermosa": "Té verde, flores de malva, pétalos de rosa, trozos de fresa, granos de yogur, moras, frambuesas y aromas."
+      },
+      {
+        "Depurativo": "Té verde sencha, diente de león, cáscaras de limón, trozos de manzana, trozos de naranja y aromas."
+      },
+      {
+        "Diurético": "Té verde Sencha, cola de caballo, mate verde, trozos de piña confitada, cáscaras de limón y aroma de piña."
+      },
+      {
+        "Jengibre con limón": "Té verde Sencha, trozos de jengibre, cáscaras de limón, lemon Grass y aromas."
+      },
+      {
+        "Jengibre con limón y cúrcuma": "Gunpowder, jengibre, cúrcuma, pimienta negra, manzanilla, menta y aroma limón."
+      }
+    ]
   },
   "negro": {
     "description": "El té negro es una bebida rica en antioxidantes",
@@ -120,7 +182,41 @@
       "Promueve la salud cardiovascular",
       "Alivia el malestar digestivo y tener propiedades antiinflamatorias"
     ],
-    "varieties": []
+    "varieties": [
+      {
+        "Chocolate naranja": "Rooibos, trocitos de chocolate, cáscaras de naranja, flores de azahar y aromas."
+      },
+      {
+        "Chocolate coco": "Rooibos, chips de chocolate, chocolate blanco, trozos de cacao, copos de coco y aromas."
+      },
+      {
+        "Jengibre con limón": "Rooibos, trozos de jengibre, cáscaras de limón, lemon grass y aromas."
+      },
+      {
+        "Jengibre con naranja": "Rooibos, jengibre confitado, cáscaras de naranja, papaya confitada, pétalos de rosa y aromas."
+      },
+      {
+        "Buenos días": "Rooibos, trozos de manzana, cáscaras de naranja, tronquitos de canela y aromas de vainilla, canela y naranja."
+      },
+      {
+        "Buenas noches": "Rooibos, tila, melisa, hierba luisa, flor de azahar, manzanilla, trozos de fresa, manzana y naranja, pétalos de rosa y aromas."
+      },
+      {
+        "Digestivo": "Rooibos, anís, hinojo, menta, tila, caléndula, hojas de frutas del bosque y aroma de fresa."
+      },
+      {
+        "Canela y naranja": "Rooibos, trozos de canela, tronquitos de canela, trozos de naranja, cáscara de naranja, flor de azahar y aromas."
+      },
+      {
+        "Cúrcuma": "Rooibos, cúrcuma, papaya, naranja, bayas de goji, bayas de saúco, jengibre, cardamomo, pétalos de rosa, chili y aromas."
+      },
+      {
+        "Cereza": "Rooibos, flores de brezo, pétalos de rosa y aroma de cereza."
+      },
+      {
+        "Rooibos natural": "Infusión sin teína originada del Sur de África de calidad extra. De hebra larga, color dorado en la taza y de sabor agradable y ligeramente dulzón."
+      }
+    ]
   },
   "blanco": {
     "description": "El té blanco es una variedad delicada y suave, elaborada con brotes jóvenes de la planta Camellia sinensis",
@@ -129,6 +225,58 @@
       "Mejora la salud de la piel",
       "Elimina líquidos y grasa"
     ],
-    "varieties": []
+    "varieties": [
+      {
+        "Fresas y cava": "Té verde china chun mee, té blanco pai mu tan, china Oolong, aroma, fresa, malva e higo."
+      },
+      {
+        "Pai mu tan": "Té blanco de hoja grande de gran cantidad de brotes blancos."
+      }
+    ]
+  },
+  "infusiones": {
+    "description": "Las infusiones son bebidas preparadas mediante la inmersión de hierbas, frutas, especias o flores en agua caliente. Ofrecen una amplia gama de sabores y beneficios para la salud y una alternativa sin cafeína.",
+    "benefits": [
+      "Mejoran la relajación y la hidratación",
+      "Favorece la digestión",
+      "Apoyo al sistema inmunológico",
+      "Alivia el estrés y ayuda a dormir mejor",
+      "Algunos incluyen antioxidantes"
+    ],
+    "varieties": [
+      {
+        "Mango con cúrcuma": "Trozos de manzana, piña confitada, mango confitado, papaya confitada, raíz de cúrcuma molida y aromas."
+      },
+      {
+        "Especial mujer": "Manzana, piña, hojas de mora, rooibos super grade, hojas de olivo, jengibre, trozos de canela, manzanilla, piel de naranja, pimienta rosa, aroma natural de naranja, clavo, trozos de naranja, alchemilla y aloe vera."
+      },
+      {
+        "Especial hombre": "Manzana, rooibos super grade, piña, citronela, jengibre, trozos de canela, pimienta rosa, clavo, aloe vera, guaraná, baya de goji y chile."
+      },
+      {
+        "Aloe vera": "Citronela, menta, jengibre, piel de limón, pimienta negra, regaliz y aloe vera."
+      },
+      {
+        "Sin preocupaciones": "Citronela, uva pasa, papaya, hinojo, melisa, manzanilla, pétalos de rosa, cacao y baya de goji."
+      },
+      {
+        "Paz interior": "Menta de canela, hibisco, raíz de regaliz, jengibre, hinojo, piel de naranja, clavo, manzanilla, pimienta rosa y cardamomo."
+      },
+      {
+        "Piña colada": "Trozos de piña, virutas de coco y sus aromas. También se puede servir frio."
+      },
+      {
+        "Mojito": "Té verde China Sencha, Cáscara de limón, citronela, aroma natural, caléndula y menta."
+      },
+      {
+        "Fresas con nata": "Manzana, hibisco, escaramujo, pétalos de rosa, aromas y fresas."
+      },
+      {
+        "Bora Bora": "Hibisco, manzana, escaramujo, remolacha, arandanos, rosas y aroma."
+      },
+      {
+        "Limonada": "Trozos de piña confitada, trozos de manzana, gránulos de limón, cáscaras de limón, grosellas rojas y aromas cítricos."
+      }
+    ]
   }
 }

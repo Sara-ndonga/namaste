@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <AuthContext>
       <main className="flex flex-col items-center justify-center min-h-screen bg-green-50">
-        <Header />
+        <Header currentPage="Home" />
         <div className="w-full mt-[-30vh] z-10">
           <div className="bg-green-50 w-fit mx-auto z-10">
             <p className="text-center text-2xl text-green-600">

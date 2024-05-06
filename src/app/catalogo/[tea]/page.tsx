@@ -10,6 +10,7 @@ export function generateStaticParams() {
   return [
     { tea: "te-azul" },
     { tea: "te-blanco" },
+    { tea: "te-infusiones" },
     { tea: "te-negro" },
     { tea: "te-rojo" },
     { tea: "te-rooibos" },
@@ -26,7 +27,7 @@ export default function TeaPage({ params }: { params: { tea: string } }) {
 
   return (
     <main className="flex flex-col items-center min-h-screen bg-green-50">
-      <Header />
+      <Header currentPage="CatalogPage" />
       <TeaPageComponent teaName={params.tea} varieties={varieties} />
     </main>
   );

@@ -9,7 +9,7 @@ export default function LocationPage() {
   return (
     <AuthContext>
       <main className="flex flex-col items-center justify-center min-h-screen bg-green-50">
-        <Header />
+        <Header currentPage="LocationPage" />
         <div className="flex flex-col md:flex-row justify-center items-center w-full mt-4 md:mt-0">
           <div className="flex flex-col md:mr-12 max-w-72">
             <h1 className="text-lg md:text-2xl text-gray-500 text-center mb-4">
